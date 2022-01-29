@@ -1,0 +1,24 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo '
+🔎 Analysing the code before commit 🔍'
+
+npm run lint || (
+  echo '
+   ❌ [FAIL] - Type check error or coding style ❌
+Make the changes required above or run `npm run lint:fix`
+'
+  false;
+)
+
+npm run test:pre-commit || (
+  echo '
+        ❌ [FAIL] - Tests ❌
+correct the tests error before committing
+'
+  false;
+)
+
+echo '
+✅ Everything is ok 🥳 - you can commit ✅'
