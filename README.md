@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) template project.
 
-Next.js | Jest | Husky - pre-validation
+Next.js | Tailwind css | Jest | Husky - pre-validation
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Custom Features
 
-This project contains jest has a suit of test and husky pre-commit validation all the lint need to pass and also the written tests.
+This project contains Jest for tests, Tailwind css and husky pre-commit validation for all the linting.
 
 ## Learn More
 
