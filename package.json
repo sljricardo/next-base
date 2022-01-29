@@ -1,5 +1,5 @@
 {
-  "name": "default",
+  "name": "next-base",
   "private": true,
   "scripts": {
     "dev": "next dev",
