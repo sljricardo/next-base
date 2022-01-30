@@ -34,6 +34,8 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project contains Jest for tests, Tailwind css and husky pre-commit validation for all the linting.
 
+Custom Font [Fira Code](https://github.com/tonsky/FiraCodee)
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
