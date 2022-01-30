@@ -1,17 +1,17 @@
-import { render, screen } from "@testing-library/react";
-import Home from "../pages/index";
+import { render, screen } from '@testing-library/react'
+import Home from '../pages/index'
 
-describe("Home", () => {
-  it("should be true", () => {
-    expect(true).toBeTruthy();
-  });
+describe('Home', () => {
+  it('should be true', () => {
+    expect(true).toBeTruthy()
+  })
 
-  it("renders a heading", () => {
-    render(<Home />);
+  it('renders a heading', () => {
+    render(<Home />)
 
-    const heading = screen.getByRole("heading", {
+    const heading = screen.getByRole('heading', {
       name: /Welcome to Next\.js/i,
-    });
-    expect(heading).toBeInTheDocument();
-  });
-});
+    })
+    expect(heading).toBeInTheDocument()
+  })
+})
