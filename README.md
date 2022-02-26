@@ -1,13 +1,15 @@
 This is a [Next.js](https://nextjs.org/) template project.
 
-Next.js | Tailwind css | Jest | Husky - pre-validation
+Next.js | Tailwind css | Jest | Typescript | Husky - pre-validation
 
 ## Getting Started
 
 Create a new project with this base
 
 ```bash
-npx create-next-app --example [name] [github-url]
+npx create-next-app [name] --example [github-url]
+or
+pnpx create-next-app [name] --example [github-url]
 ```
 
 Install packages
